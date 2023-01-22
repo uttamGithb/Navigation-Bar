@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 65px;
+    width: 100%;
+    /* background-color:black; */
+    background-color:rgb(17, 17, 37);
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 65px;
+    width: 90%;
+    display: flex;
+}
+#nav>article>.first{
+    height: 65px;
+    width: 50%;
+    /* border: 2px solid red; */
+    
+}
+#nav>article>.second{
+    height: 65px;
+    width: 50%;
+    /* background-color: aqua; */
+}
+#nav>article>.first>.content{
+    height: 65px;
+    width:100%;
+    /* border: 2px solid pink; */
+    margin-left: 0;
+    display: flex; 
+    /* justify-content: center; */
+    align-items: center; 
+    margin-right: 70px;
+}
+#nav>article>.first>.content>.icon{
+    height: 65px;
+    padding: 20px;
+    margin-left:-20px;
+    color: whitesmoke;
+    margin-bottom: -5px;
+}
+#nav>article>.first>.content>.icon>img{
+    height: 18px;
+    color: white;
+    margin-top: 2px;
+}
+#nav>article>.first>.content>img{
+    width:25%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+#nav>article>.first>.content>.heading>ol{
+        height: 65px;
+        width: 243px;
+        /* border: 2px solid aqua; */
+        /* margin-right: 0px; */
+      display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+}
+
+#nav>article>.first>.content>.heading>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:smaller;
+   color: white;
+   height: 100%;   
+    display: flex;  
+    justify-content:space-evenly;
+    align-items:center;
+    list-style-type: none;
+    
+}
+#nav>article>.first>.content>.kidsLogo{
+    width: 8.2%;
+    height: 15.6px;
+    background: url(hotstar_KidsLogo.svg);
+}
+/* ===================================================================================== */
+#nav>article>.second{
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#nav>article>.second>.search{
+    margin-left: 160px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav>article>.second>.search>.searchInput>input{
+    border: none;
+    background: rgb(17, 17, 37);
+    
+}
+#nav>article>.second>.search>.searchIcon>i{
+    color:white;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+#nav>article>.second>button{
+    background: rgb(13, 13, 232);
+    color: white;
+    border-radius: 4px;
+    height: 20px;
+    width: 80px;
+    font-size: 10px;
+     border: none;
+     font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#nav>article>.second>.login{
+   margin-right: -17px;
+   color: white;
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
